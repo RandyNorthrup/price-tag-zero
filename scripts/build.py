@@ -224,7 +224,7 @@ def build_readme(data) -> str:
     )
     out.append(
         '<p align="center">\n'
-        f"<b>{total} hand-checked, free and open-source apps with a real GUI that replace the software you pay for.</b>\n"
+        "<b>Hand-checked, free and open-source apps with a real GUI that replace the software you pay for.</b>\n"
         "</p>\n"
     )
     out.append(
@@ -326,7 +326,7 @@ def build_replaces(data) -> str:
     out.append("# Paid app to free app, A to Z\n")
     out.append(
         f"Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, open-source apps "
-        f"on the list that replace it: {len(products)} paid products, {len(data['apps'])} free apps. "
+        "on the list that replace it. "
         "Every free app here passes [the rules](CONTRIBUTING.md#the-rules): open source, a real GUI, "
         "nothing for sale, active, and a fair replacement.\n"
     )

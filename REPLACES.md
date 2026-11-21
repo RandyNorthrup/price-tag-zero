@@ -2,7 +2,7 @@
 
 # Paid app to free app, A to Z
 
-Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, open-source apps on the list that replace it: 392 paid products, 286 free apps. Every free app here passes [the rules](CONTRIBUTING.md#the-rules): open source, a real GUI, nothing for sale, active, and a fair replacement.
+Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, open-source apps on the list that replace it. Every free app here passes [the rules](CONTRIBUTING.md#the-rules): open source, a real GUI, nothing for sale, active, and a fair replacement.
 
 **Jump to:** [0-9](#0-9) · [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 

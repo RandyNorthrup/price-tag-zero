@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-<b>286 hand-checked, free and open-source apps with a real GUI that replace the software you pay for.</b>
+<b>Hand-checked, free and open-source apps with a real GUI that replace the software you pay for.</b>
 </p>
 
 <p align="center">
