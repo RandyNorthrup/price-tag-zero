@@ -202,7 +202,7 @@
   name: S.A.K. Utility
   url: https://sakutility.com
   repo: https://github.com/RandyNorthrup/S.A.K.-Utility
-  category: disk-partitions
+  category: system-utilities
   description: 'Portable Windows tech toolkit: partitions, backup, USB imaging, PST viewer and more.'
   replaces: [EaseUS Partition Master, AOMEI Backupper, SysTools Outlook PST Viewer Pro]
   platforms: [windows]
