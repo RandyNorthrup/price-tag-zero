@@ -1,0 +1,70 @@
+# Price Tag Zero: categories, in README order.
+# Each id needs icons at assets/icons/28/<id>.png and assets/icons/64/<id>.png.
+
+- id: disk-partitions
+  name: Disk & Partitions
+  blurb: Partition editors, bootable USB makers, disk space analyzers and drive tools.
+
+- id: backup-sync-migration
+  name: Backup, Sync & Migration
+  blurb: Back up, image, sync and move your files, systems and apps.
+
+- id: data-recovery
+  name: Data Recovery
+  blurb: Get back deleted files, lost partitions, broken videos and failing discs.
+
+- id: system-utilities
+  name: System Utilities
+  blurb: Cleaners, uninstallers, hardware monitors, launchers and desktop tweaks.
+
+- id: email
+  name: Email
+  blurb: Email clients, webmail, newsletters and mail servers.
+
+- id: office-pdf
+  name: Office & PDF
+  blurb: Office suites, PDF editors, scanning, publishing and personal finance.
+
+- id: photo-graphics
+  name: Photo & Graphics
+  blurb: Photo editing, raw development, painting, vector art and photo libraries.
+
+- id: 3d-cad
+  name: 3D & CAD
+  blurb: 3D modeling, CAD, electronics design, 3D printing and interior design.
+
+- id: audio
+  name: Audio
+  blurb: Audio editing, music production, DJing, tagging, transcription and music servers.
+
+- id: video-streaming
+  name: Video & Streaming
+  blurb: Video editing, conversion, playback, live streaming, animation and media servers.
+
+- id: screen-capture
+  name: Screen Capture
+  blurb: Screenshots, screen recording, GIFs and text grabbing.
+
+- id: remote-access-networking
+  name: Remote Access & Networking
+  blurb: Remote desktop, terminals, file sharing, game streaming and network tools.
+
+- id: security-passwords
+  name: Security & Passwords
+  blurb: Password managers, firewalls and file encryption.
+
+- id: developer-tools
+  name: Developer Tools
+  blurb: Code editors, Git clients, database tools, API clients and reverse engineering.
+
+- id: notes
+  name: Notes
+  blurb: Note-taking, writing, wikis, mind maps and personal productivity.
+
+- id: file-management
+  name: File Management
+  blurb: File managers, archivers, duplicate finders, compare tools and file transfer.
+
+- id: virtualization
+  name: Virtualization
+  blurb: Virtual machines, Windows apps on Linux and container managers.

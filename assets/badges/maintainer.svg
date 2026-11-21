@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.8" height="20" viewBox="0 0 128.8 20" role="img" aria-label="Made by this list&#x27;s maintainer">
+<!-- GENERATED FILE: do not edit by hand. Edit the files in data/ and run: python scripts/build.py -->
+<title>Made by this list&#x27;s maintainer</title>
+<rect x="2.5" y="2.5" width="125.8" height="17" rx="4" fill="#FFC82E"/>
+<rect x="0.5" y="0.5" width="125.8" height="17" rx="4" fill="#FF3D89" stroke="#000000"/>
+<text x="6.5" y="12.6" fill="#000000" font-family="Verdana,Geneva,'DejaVu Sans',sans-serif" font-size="10" font-weight="bold" textLength="113.8" lengthAdjust="spacingAndGlyphs">maintainer&#x27;s project</text>
+</svg>

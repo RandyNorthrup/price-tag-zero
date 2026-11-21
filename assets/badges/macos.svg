@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.8" height="20" viewBox="0 0 53.8 20" role="img" aria-label="Runs on macOS">
+<!-- GENERATED FILE: do not edit by hand. Edit the files in data/ and run: python scripts/build.py -->
+<title>Runs on macOS</title>
+<rect x="2.5" y="2.5" width="50.8" height="17" rx="4" fill="#FF3D89"/>
+<rect x="0.5" y="0.5" width="50.8" height="17" rx="4" fill="#FFC82E" stroke="#000000"/>
+<text x="6.5" y="12.6" fill="#000000" font-family="Verdana,Geneva,'DejaVu Sans',sans-serif" font-size="10" font-weight="bold" textLength="38.8" lengthAdjust="spacingAndGlyphs">macOS</text>
+</svg>

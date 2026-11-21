@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.lycheecache
+node_modules/
+live-report.md
+lychee-report.md

@@ -1,0 +1,88 @@
+name: Weekly health check
+
+# Every Monday: ask GitHub about every listed repo (archived, inactive, license changes)
+# and check every link. Opens an issue labelled "health-check" when something fails,
+# or comments on the open one.
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    name: Live check and links
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Live check (GitHub GraphQL)
+        id: live
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -o pipefail
+          python scripts/check.py --live --report live-report.md 2>&1 | tee live-output.txt
+
+      - name: Check links
+        id: links
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml README.md REPLACES.md EXCLUDED.md CONTRIBUTING.md
+          output: lychee-report.md
+          fail: false
+
+      - name: Open or update the health-check issue
+        if: steps.live.outcome == 'failure' || steps.links.outputs.exit_code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          LIVE_FAILED: ${{ steps.live.outcome == 'failure' }}
+          LINKS_EXIT: ${{ steps.links.outputs.exit_code }}
+        run: |
+          {
+            echo "The weekly health check found something that needs a look. [Workflow run]($RUN_URL)"
+            echo
+            if [ "$LIVE_FAILED" = "true" ]; then
+              if [ -s live-report.md ]; then
+                cat live-report.md
+              else
+                echo "## Live check output"
+                echo
+                echo '```'
+                tail -n 100 live-output.txt
+                echo '```'
+              fi
+              echo
+            fi
+            if [ "$LINKS_EXIT" != "0" ] && [ -f lychee-report.md ]; then
+              echo "## Links"
+              echo
+              cat lychee-report.md
+            fi
+          } | head -c 60000 > issue.md
+          gh label create health-check --color FF3D89 --description "The weekly health check found a problem" --force
+          number=$(gh issue list --label health-check --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file issue.md
+          else
+            gh issue create --title "Weekly health check: problems found" --label health-check --body-file issue.md
+          fi
+
+      - name: Fail the run when something needs attention
+        if: steps.live.outcome == 'failure' || steps.links.outputs.exit_code != '0'
+        run: exit 1

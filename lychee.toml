@@ -1,0 +1,20 @@
+# Link-check settings for lychee, used by CI and the weekly health check.
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 16
+no_progress = true
+
+# Many project and vendor sites answer automated requests with 403 (bot protection)
+# or 429 (rate limits) while working fine in a browser. Real breakage shows up as
+# 404, 410, 5xx, DNS or TLS errors.
+accept = ["200..=299", "403", "429"]
+
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+
+exclude = [
+  # This repository is private until launch, so its own issue and blob links
+  # can't be fetched anonymously.
+  '^https://github\.com/RandyNorthrup/price-tag-zero',
+]

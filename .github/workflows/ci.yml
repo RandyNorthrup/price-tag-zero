@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  data:
+    name: Data and generated files
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate the data
+        run: python scripts/check.py
+
+      - name: Generated files are up to date
+        run: python scripts/build.py --check
+
+  awesome-lint:
+    name: awesome-lint
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: "24"
+
+      - name: Lint README.md
+        run: npx --yes awesome-lint@2.3.0 README.md
+        env:
+          # awesome-lint reads the repo's description, topics and license through the GitHub API.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  links:
+    name: Links
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - name: Restore the link-check cache
+        uses: actions/cache@v6.1.0
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.sha }}
+          restore-keys: lychee-
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml --cache --max-cache-age 1d README.md REPLACES.md EXCLUDED.md CONTRIBUTING.md
+          fail: true

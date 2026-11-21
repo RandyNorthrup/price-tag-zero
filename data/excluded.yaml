@@ -1,0 +1,1691 @@
+# Price Tag Zero: popular apps that were checked and are NOT listed, with why.
+# EXCLUDED.md ("Why isn't X here?") is generated from this file by scripts/build.py.
+#
+# Fields
+#   id, name, url, repo (optional), category, replaces: as in apps.yaml
+#   group       the main rule it fails: sells, ads, license, inactive,
+#               no-release, no-gui or not-a-replacement
+#   reason      one or two plain sentences
+#   maintainer  true only for apps made by this list's maintainer (optional)
+#   checked     date of the last check (YYYY-MM-DD)
+
+- id: 7-zip
+  name: 7-Zip
+  url: https://www.7-zip.org/
+  repo: https://github.com/ip7z/7zip
+  category: file-management
+  replaces: [WinRAR, WinZip]
+  group: license
+  reason: unRAR restriction in the license is not OSI-approved. PeaZip is listed instead.
+  checked: '2026-11-21'
+
+- id: affine
+  name: AFFiNE
+  url: https://affine.pro
+  repo: https://github.com/toeverything/AFFiNE
+  category: notes
+  replaces: [Notion, Miro]
+  group: sells
+  reason: Sells Pro, Team, lifetime and AI plans; parts of the repo are not under an OSI license.
+  checked: '2026-11-21'
+
+- id: aldente
+  name: AlDente
+  url: https://apphousekitchen.com/
+  repo: https://github.com/AppHouseKitchen/AlDente-Battery_Care_and_Monitoring
+  category: system-utilities
+  replaces: [coconutBattery]
+  group: sells
+  reason: Sells AlDente Pro; proprietary license.
+  checked: '2026-11-21'
+
+- id: alttab
+  name: AltTab
+  url: https://alt-tab.app
+  repo: https://github.com/lwouis/alt-tab-macos
+  category: system-utilities
+  replaces: [Witch, Contexts]
+  group: sells
+  reason: Sells AltTab Pro (paid tier with trial).
+  checked: '2026-11-21'
+
+- id: anytype
+  name: Anytype
+  url: https://anytype.io
+  repo: https://github.com/anyproto/anytype-ts
+  category: notes
+  replaces: [Notion]
+  group: license
+  reason: Source-available license, not OSI-approved; also sells membership tiers.
+  checked: '2026-11-21'
+
+- id: api-dash
+  name: API Dash
+  url: https://apidash.dev
+  repo: https://github.com/foss42/apidash
+  category: developer-tools
+  replaces: [Postman, Insomnia]
+  group: no-release
+  reason: Only desktop build is v0.3.0 (2023-11); environments, history and Postman import exist only in unreleased v0.5.
+  checked: '2026-11-21'
+
+- id: appflowy
+  name: AppFlowy
+  url: https://appflowy.com
+  repo: https://github.com/AppFlowy-IO/AppFlowy
+  category: notes
+  replaces: [Notion]
+  group: sells
+  reason: Sells AppFlowy Cloud Pro plans ($12/member/month).
+  checked: '2026-11-21'
+
+- id: ardour
+  name: Ardour
+  url: https://ardour.org
+  repo: https://github.com/Ardour/ardour
+  category: audio
+  replaces: [Pro Tools, Cubase]
+  group: sells
+  reason: Official ready-to-run builds are sold; free only as source.
+  checked: '2026-11-21'
+
+- id: armorpaint
+  name: ArmorPaint
+  url: https://armorpaint.org
+  repo: https://github.com/armory3d/armortools
+  category: 3d-cad
+  replaces: [Adobe Substance 3D Painter]
+  group: sells
+  reason: Prebuilt desktop binaries are sold ($19).
+  checked: '2026-11-21'
+
+- id: audacity
+  name: Audacity
+  url: https://www.audacityteam.org
+  repo: https://github.com/audacity/audacity
+  category: audio
+  replaces: [Adobe Audition]
+  group: sells
+  reason: Sells paid Audacity Cloud storage/sync (audio.com Basic/Pro) built into the app; owned by Muse Group. Tenacity is the clean fork.
+  checked: '2026-11-21'
+
+- id: balenaetcher
+  name: balenaEtcher
+  url: https://etcher.io/
+  repo: https://github.com/balena-io/etcher
+  category: disk-partitions
+  replaces: [UltraISO, PowerISO]
+  group: ads
+  reason: The app shows a 'featured project' promo panel loaded from balena's servers while flashing (in-app ads).
+  checked: '2026-11-21'
+
+- id: beekeeper-studio
+  name: Beekeeper Studio
+  url: https://www.beekeeperstudio.io
+  repo: https://github.com/beekeeper-studio/beekeeper-studio
+  category: developer-tools
+  replaces: [TablePlus, DataGrip]
+  group: sells
+  reason: Sells paid editions.
+  checked: '2026-11-21'
+
+- id: bentopdf
+  name: BentoPDF
+  url: https://bentopdf.com
+  repo: https://github.com/alam00000/bentopdf
+  category: office-pdf
+  replaces: [Adobe Acrobat Pro]
+  group: sells
+  reason: Sells a $79 commercial license and paid add-on subscriptions.
+  checked: '2026-11-21'
+
+- id: bitwarden
+  name: Bitwarden
+  url: https://bitwarden.com
+  repo: https://github.com/bitwarden/clients
+  category: security-passwords
+  replaces: [1Password, LastPass]
+  group: sells
+  reason: Sells Premium, Families and business plans; part of the code is under the Bitwarden License.
+  checked: '2026-11-21'
+
+- id: blinko
+  name: Blinko
+  url: https://blinko.space
+  repo: https://github.com/blinko-space/blinko
+  category: notes
+  replaces: [Evernote]
+  group: sells
+  reason: Sells Blinko Cloud Pro plans.
+  checked: '2026-11-21'
+
+- id: bruno
+  name: Bruno
+  url: https://www.usebruno.com
+  repo: https://github.com/usebruno/bruno
+  category: developer-tools
+  replaces: [Postman, Insomnia]
+  group: sells
+  reason: Sells Pro, Ultimate and Enterprise editions.
+  checked: '2026-11-21'
+
+- id: buttercup
+  name: Buttercup
+  url: https://buttercup.pw
+  repo: https://github.com/buttercup/buttercup-desktop
+  category: security-passwords
+  replaces: [1Password]
+  group: inactive
+  reason: Repository archived; last release Sept 2024, last commit March 2025.
+  checked: '2026-11-21'
+
+- id: cap
+  name: Cap
+  url: https://cap.so
+  repo: https://github.com/CapSoftware/Cap
+  category: screen-capture
+  replaces: [Loom, Screen Studio]
+  group: sells
+  reason: Sells a commercial-use desktop license and Cap Pro cloud subscriptions.
+  checked: '2026-11-21'
+
+- id: captura
+  name: Captura
+  url: https://mathewsachin.github.io/Captura/
+  repo: https://github.com/MathewSachin/Captura
+  category: screen-capture
+  replaces: [TechSmith Camtasia (recording)]
+  group: inactive
+  reason: README says it is no longer maintained; last stable release 2018.
+  checked: '2026-11-21'
+
+- id: checkmk-community
+  name: Checkmk Community
+  url: https://checkmk.com
+  repo: https://github.com/Checkmk/checkmk
+  category: remote-access-networking
+  replaces: [PRTG, SolarWinds NPM]
+  group: sells
+  reason: 'Open-core: paid Pro, Ultimate and Cloud editions.'
+  checked: '2026-11-21'
+
+- id: clamtk
+  name: ClamTk
+  url: https://gitlab.com/dave_m/clamtk
+  repo: https://github.com/dave-theunsub/clamtk
+  category: security-passwords
+  replaces: [Malwarebytes Premium]
+  group: inactive
+  reason: 'Inactive: last commit 2024-03-30, last release Jan 2024.'
+  checked: '2026-11-21'
+
+- id: clonezilla
+  name: Clonezilla
+  url: https://clonezilla.org
+  repo: https://github.com/stevenshiau/clonezilla
+  category: backup-sync-migration
+  replaces: [Acronis True Image, Macrium Reflect]
+  group: no-gui
+  reason: No graphical interface (text menus only); Rescuezilla is the GUI front end.
+  checked: '2026-11-21'
+
+- id: cloudreve
+  name: Cloudreve
+  url: https://cloudreve.org
+  repo: https://github.com/cloudreve/cloudreve
+  category: file-management
+  replaces: [Dropbox]
+  group: sells
+  reason: Sells a Pro edition (license key).
+  checked: '2026-11-21'
+
+- id: collabora-online-office
+  name: Collabora Online / Office
+  url: https://www.collaboraonline.com
+  repo: https://github.com/CollaboraOnline/online
+  category: office-pdf
+  replaces: [Microsoft 365]
+  group: sells
+  reason: Collabora sells Business and Enterprise subscriptions.
+  checked: '2026-11-21'
+
+- id: comfyui
+  name: ComfyUI
+  url: https://www.comfy.org
+  repo: https://github.com/Comfy-Org/ComfyUI
+  category: photo-graphics
+  replaces: [Midjourney]
+  group: sells
+  reason: Comfy Org sells Comfy Cloud, enterprise builds and a paid model API.
+  checked: '2026-11-21'
+
+- id: cryptomator
+  name: Cryptomator
+  url: https://cryptomator.org
+  repo: https://github.com/cryptomator/cryptomator
+  category: security-passwords
+  replaces: [Boxcryptor, NordLocker]
+  group: sells
+  reason: Desktop dark mode is paid, mobile apps are paid, and Cryptomator Hub has paid Standard/Enterprise tiers.
+  checked: '2026-11-21'
+
+- id: cryptpad
+  name: CryptPad
+  url: https://cryptpad.org
+  repo: https://github.com/cryptpad/cryptpad
+  category: office-pdf
+  replaces: [Google Workspace, Microsoft 365]
+  group: sells
+  reason: XWiki sells paid plans on the official hosted instance.
+  checked: '2026-11-21'
+
+- id: crystaldiskinfo
+  name: CrystalDiskInfo
+  url: https://crystalmark.info/en/software/crystaldiskinfo/
+  repo: https://github.com/hiyohiyo/CrystalDiskInfo
+  category: disk-partitions
+  replaces: [Hard Disk Sentinel Pro, HD Tune Pro]
+  group: ads
+  reason: The author distributes ad-supported "Ads" installer builds of the app; only website ads are allowed.
+  checked: '2026-11-21'
+
+- id: dbeaver-community
+  name: DBeaver Community
+  url: https://dbeaver.io
+  repo: https://github.com/dbeaver/dbeaver
+  category: developer-tools
+  replaces: [DataGrip, Navicat]
+  group: sells
+  reason: 'Open-core: paid PRO editions.'
+  checked: '2026-11-21'
+
+- id: dbgate
+  name: DbGate
+  url: https://www.dbgate.io
+  repo: https://github.com/dbgate/dbgate
+  category: developer-tools
+  replaces: [DataGrip, Navicat]
+  group: sells
+  reason: Sells Premium editions with a trial.
+  checked: '2026-11-21'
+
+- id: ddrescueview
+  name: ddrescueview
+  url: https://sourceforge.net/projects/ddrescueview/
+  repo: https://sourceforge.net/projects/ddrescueview/
+  category: data-recovery
+  replaces: [HDD Raw Copy]
+  group: inactive
+  reason: Inactive (last update 2022-02-25) and only a viewer, not a recovery tool.
+  checked: '2026-11-21'
+
+- id: delta-chat
+  name: Delta Chat
+  url: https://delta.chat
+  repo: https://github.com/deltachat/deltachat-desktop
+  category: email
+  replaces: [WhatsApp, Slack]
+  group: not-a-replacement
+  reason: A messenger, not an email client; does not replace paid email software.
+  checked: '2026-11-21'
+
+- id: deskflow
+  name: Deskflow
+  url: https://github.com/deskflow/deskflow
+  repo: https://github.com/deskflow/deskflow
+  category: remote-access-networking
+  replaces: [Synergy, ShareMouse]
+  group: sells
+  reason: Its main sponsor Symless sells Synergy, the paid edition built on Deskflow. Lan Mouse is listed instead.
+  checked: '2026-11-21'
+
+- id: docmost
+  name: Docmost
+  url: https://docmost.com
+  repo: https://github.com/docmost/docmost
+  category: notes
+  replaces: [Confluence, Notion]
+  group: sells
+  reason: Sells a cloud version and an Enterprise Edition.
+  checked: '2026-11-21'
+
+- id: docuseal
+  name: DocuSeal
+  url: https://www.docuseal.com
+  repo: https://github.com/docusealco/docuseal
+  category: office-pdf
+  replaces: [DocuSign]
+  group: sells
+  reason: Sells Cloud Pro and On-Premises Pro plans.
+  checked: '2026-11-21'
+
+- id: duplicati
+  name: Duplicati
+  url: https://github.com/duplicati/duplicati
+  repo: https://github.com/duplicati/duplicati
+  category: backup-sync-migration
+  replaces: [Acronis True Image, Backblaze]
+  group: sells
+  reason: Duplicati Inc. sells Pro and Enterprise console subscriptions and storage.
+  checked: '2026-11-21'
+
+- id: electronmail
+  name: ElectronMail
+  url: https://github.com/vladimiry/ElectronMail
+  repo: https://github.com/vladimiry/ElectronMail
+  category: email
+  replaces: [Proton Mail Bridge]
+  group: not-a-replacement
+  reason: Client for one service (Proton Mail) only; not a general replacement for a paid email client.
+  checked: '2026-11-21'
+
+- id: espanso
+  name: Espanso
+  url: https://espanso.org
+  repo: https://github.com/espanso/espanso
+  category: system-utilities
+  replaces: [TextExpander, PhraseExpress]
+  group: no-gui
+  reason: 'No real GUI yet: configured through YAML files (only a search bar).'
+  checked: '2026-11-21'
+
+- id: file-browser
+  name: File Browser
+  url: https://github.com/filebrowser/filebrowser
+  repo: https://github.com/filebrowser/filebrowser
+  category: file-management
+  replaces: [FileRun]
+  group: inactive
+  reason: Repository archived (read-only).
+  checked: '2026-11-21'
+
+- id: filestash
+  name: Filestash
+  url: https://www.filestash.app/
+  repo: https://github.com/mickael-kerjean/filestash
+  category: file-management
+  replaces: [Files.com]
+  group: sells
+  reason: Sells paid plans with a commercial license and a hosted (SaaS) option.
+  checked: '2026-11-21'
+
+- id: filezilla
+  name: FileZilla
+  url: https://filezilla-project.org
+  repo: https://svn.filezilla-project.org/filezilla
+  category: file-management
+  replaces: [Transmit]
+  group: sells
+  reason: Project sells FileZilla Pro (paid edition).
+  checked: '2026-11-21'
+
+- id: fooocus
+  name: Fooocus
+  url: https://github.com/lllyasviel/Fooocus
+  repo: https://github.com/lllyasviel/Fooocus
+  category: photo-graphics
+  replaces: [Midjourney]
+  group: inactive
+  reason: 'Inactive: last commit 2025-09-02, last release 2024-08-12.'
+  checked: '2026-11-21'
+
+- id: freefilesync
+  name: FreeFileSync
+  url: https://freefilesync.org
+  repo: https://github.com/hkneptune/FreeFileSync
+  category: backup-sync-migration
+  replaces: [GoodSync, SyncBack Pro]
+  group: sells
+  reason: Paid Donation Edition features and a required paid Business Edition for commercial use; repo is an unofficial mirror.
+  checked: '2026-11-21'
+
+- id: fritzing
+  name: Fritzing
+  url: https://fritzing.org
+  repo: https://github.com/fritzing/fritzing-app
+  category: 3d-cad
+  replaces: [Autodesk Eagle]
+  group: sells
+  reason: Official binaries are only available after payment.
+  checked: '2026-11-21'
+
+- id: ganttproject
+  name: GanttProject
+  url: https://www.ganttproject.biz
+  repo: https://github.com/bardsoftware/ganttproject
+  category: office-pdf
+  replaces: [Microsoft Project]
+  group: sells
+  reason: Sells optional pay-as-you-go GanttProject Cloud; last stable release Jan 2024.
+  checked: '2026-11-21'
+
+- id: gatus
+  name: Gatus
+  url: https://gatus.io
+  repo: https://github.com/TwiN/gatus
+  category: remote-access-networking
+  replaces: [UptimeRobot Pro, Pingdom]
+  group: sells
+  reason: Sells hosted Gatus plans with a trial.
+  checked: '2026-11-21'
+
+- id: geary
+  name: Geary
+  url: https://wiki.gnome.org/Apps/Geary
+  repo: https://github.com/GNOME/geary
+  category: email
+  replaces: [Microsoft Outlook, Mailbird]
+  group: inactive
+  reason: No release in over 12 months (last 46.0, May 2024).
+  checked: '2026-11-21'
+
+- id: gitbutler
+  name: GitButler
+  url: https://gitbutler.com
+  repo: https://github.com/gitbutlerapp/gitbutler
+  category: developer-tools
+  replaces: [GitKraken, Tower]
+  group: license
+  reason: Functional Source License is source-available, not OSI open source.
+  checked: '2026-11-21'
+
+- id: graphite
+  name: Graphite
+  url: https://graphite.art
+  repo: https://github.com/GraphiteEditor/Graphite
+  category: photo-graphics
+  replaces: [Adobe Illustrator, Affinity Designer]
+  group: no-release
+  reason: No released desktop build yet (RC stage) and no self-host release; the project-hosted browser editor is the only stable form. Revisit when desktop ships.
+  checked: '2026-11-21'
+
+- id: grist
+  name: Grist
+  url: https://www.getgrist.com
+  repo: https://github.com/gristlabs/grist-core
+  category: office-pdf
+  replaces: [Airtable, Microsoft Excel]
+  group: sells
+  reason: Grist Labs sells hosted plans and a paid self-hosted edition.
+  checked: '2026-11-21'
+
+- id: guymager
+  name: Guymager
+  url: https://guymager.sourceforge.io
+  repo: https://sourceforge.net/projects/guymager/
+  category: data-recovery
+  replaces: [FTK Imager]
+  group: inactive
+  reason: 'Inactive: last update 2021-08-05.'
+  checked: '2026-11-21'
+
+- id: hddsuperclone
+  name: HDDSuperClone
+  url: https://github.com/thesourcerer8/hddsuperclone
+  repo: https://github.com/thesourcerer8/hddsuperclone
+  category: data-recovery
+  replaces: [DeepSpar Disk Imager, R-Studio]
+  group: no-release
+  reason: GPL fork has no downloadable release (build from source); original site sells a PRO version.
+  checked: '2026-11-21'
+
+- id: heynote
+  name: Heynote
+  url: https://heynote.com
+  repo: https://github.com/heyman/heynote
+  category: notes
+  replaces: [Drafts]
+  group: license
+  reason: Commons Clause license, not OSI-approved.
+  checked: '2026-11-21'
+
+- id: hoppscotch
+  name: Hoppscotch
+  url: https://hoppscotch.com
+  repo: https://github.com/hoppscotch/hoppscotch
+  category: developer-tools
+  replaces: [Postman]
+  group: sells
+  reason: Sells Business and Enterprise plans.
+  checked: '2026-11-21'
+
+- id: ice
+  name: Ice
+  url: https://icemenubar.app
+  repo: https://github.com/jordanbaird/Ice
+  category: system-utilities
+  replaces: [Bartender]
+  group: inactive
+  reason: 'Inactive: last commit on main 2025-09-20, last stable release 2024-10-29.'
+  checked: '2026-11-21'
+
+- id: icinga-web
+  name: Icinga Web
+  url: https://icinga.com
+  repo: https://github.com/Icinga/icingaweb2
+  category: remote-access-networking
+  replaces: [PRTG, SolarWinds NPM]
+  group: sells
+  reason: Sells subscription-only enterprise modules and packages.
+  checked: '2026-11-21'
+
+- id: imageglass
+  name: ImageGlass
+  url: https://imageglass.org
+  repo: https://github.com/d2phap/ImageGlass
+  category: photo-graphics
+  replaces: [ACDSee]
+  group: sells
+  reason: Paid ImageGlass Pro edition; official binaries are distributed under Pro/commercial terms.
+  checked: '2026-11-21'
+
+- id: input-leap
+  name: Input Leap
+  url: https://github.com/input-leap/input-leap
+  repo: https://github.com/input-leap/input-leap
+  category: remote-access-networking
+  replaces: [Synergy]
+  group: inactive
+  reason: Repository archived; last release 2025-06-13.
+  checked: '2026-11-21'
+
+- id: insomnia
+  name: Insomnia
+  url: https://insomnia.rest
+  repo: https://github.com/Kong/insomnia
+  category: developer-tools
+  replaces: [Postman]
+  group: sells
+  reason: Sells paid cloud plans.
+  checked: '2026-11-21'
+
+- id: joplin
+  name: Joplin
+  url: https://joplinapp.org
+  repo: https://github.com/laurent22/joplin
+  category: notes
+  replaces: [Evernote, Notion]
+  group: sells
+  reason: Sells Joplin Cloud plans (2.99-9.99 EUR/month) and Joplin Server Business, with trials.
+  checked: '2026-11-21'
+
+- id: kap
+  name: Kap
+  url: https://getkap.co
+  repo: https://github.com/wulkano/Kap
+  category: screen-capture
+  replaces: [CleanShot X]
+  group: inactive
+  reason: 'Inactive: last release 2022-10-27, last commit 2024-02-14.'
+  checked: '2026-11-21'
+
+- id: keeweb
+  name: KeeWeb
+  url: https://keeweb.info
+  repo: https://github.com/keeweb/keeweb
+  category: security-passwords
+  replaces: [1Password]
+  group: inactive
+  reason: Last stable release 1.18.7 (2021); the 2026 revival has only shipped Linux pre-releases.
+  checked: '2026-11-21'
+
+- id: keka
+  name: Keka
+  url: https://www.keka.io
+  repo: https://github.com/aonez/Keka
+  category: file-management
+  replaces: [BetterZip, Archiver]
+  group: license
+  reason: No LICENSE file in the GitHub repo and no license detected (repo hosts releases only).
+  checked: '2026-11-21'
+
+- id: kitty
+  name: KiTTY
+  url: https://www.9bis.com/kitty/
+  repo: https://github.com/cyd01/KiTTY
+  category: remote-access-networking
+  replaces: [SecureCRT]
+  group: inactive
+  reason: 'Inactive: last commit and release 2023-09-17.'
+  checked: '2026-11-21'
+
+- id: koel
+  name: Koel
+  url: https://koel.dev
+  repo: https://github.com/koel/koel
+  category: audio
+  replaces: [Plex Pass (Plexamp)]
+  group: sells
+  reason: Sells Koel Plus, a paid edition with extra features.
+  checked: '2026-11-21'
+
+- id: logseq
+  name: Logseq
+  url: https://logseq.com
+  repo: https://github.com/logseq/logseq
+  category: notes
+  replaces: [Obsidian, Roam Research]
+  group: sells
+  reason: Official sync is gated behind paid sponsorship and planned as a subscription.
+  checked: '2026-11-21'
+
+- id: lychee
+  name: Lychee
+  url: https://lycheeorg.dev
+  repo: https://github.com/LycheeOrg/Lychee
+  category: photo-graphics
+  replaces: [SmugMug]
+  group: sells
+  reason: Lychee SE is a paid edition (EUR 5/month) with extra features.
+  checked: '2026-11-21'
+
+- id: mail-in-a-box
+  name: Mail-in-a-Box
+  url: https://mailinabox.email
+  repo: https://github.com/mail-in-a-box/mailinabox
+  category: email
+  replaces: [Google Workspace, Microsoft 365 (Exchange Online)]
+  group: license
+  reason: CC0-1.0 is not an OSI-approved license.
+  checked: '2026-11-21'
+
+- id: mailcow
+  name: mailcow
+  url: https://mailcow.email
+  repo: https://github.com/mailcow/mailcow-dockerized
+  category: email
+  replaces: [Google Workspace, Microsoft 365 (Exchange Online)]
+  group: sells
+  reason: Servercow, the maintainers' company, sells managed mailcow hosting, a paid hosted version.
+  checked: '2026-11-21'
+
+- id: mailspring
+  name: Mailspring
+  url: https://getmailspring.com
+  repo: https://github.com/Foundry376/Mailspring
+  category: email
+  replaces: [Microsoft Outlook, Spark]
+  group: sells
+  reason: Sells Mailspring Pro, a $8/month subscription for extra features.
+  checked: '2026-11-21'
+
+- id: mbox-viewer
+  name: MBox Viewer
+  url: https://github.com/eneam/mboxviewer
+  repo: https://github.com/eneam/mboxviewer
+  category: email
+  replaces: [SysTools MBOX Viewer Pro]
+  group: license
+  reason: Niche archive viewer; LICENSE says part of the code is under the Code Project Open License, not OSI-approved.
+  checked: '2026-11-21'
+
+- id: mediacms
+  name: MediaCMS
+  url: https://mediacms.io
+  repo: https://github.com/mediacms-io/mediacms
+  category: video-streaming
+  replaces: [Vimeo, Kaltura]
+  group: sells
+  reason: The team sells managed hosting ($2,000/month), a paid hosted version.
+  checked: '2026-11-21'
+
+- id: modoboa
+  name: Modoboa
+  url: https://modoboa.org
+  repo: https://github.com/modoboa/modoboa
+  category: email
+  replaces: [Google Workspace]
+  group: sells
+  reason: Sells Modoboa Pro and support plans.
+  checked: '2026-11-21'
+
+- id: mos
+  name: Mos
+  url: http://mos.caldis.me
+  repo: https://github.com/Caldis/Mos
+  category: system-utilities
+  replaces: [SteerMouse]
+  group: license
+  reason: CC BY-NC 4.0 license (non-commercial, not OSI-approved).
+  checked: '2026-11-21'
+
+- id: mremoteng
+  name: mRemoteNG
+  url: https://mremoteng.org
+  repo: https://github.com/mRemoteNG/mRemoteNG
+  category: remote-access-networking
+  replaces: [Royal TS, Remote Desktop Manager, SecureCRT]
+  group: inactive
+  reason: No stable release since 2019, only nightlies.
+  checked: '2026-11-21'
+
+- id: multipass
+  name: Multipass
+  url: https://canonical.com/multipass
+  repo: https://github.com/canonical/multipass
+  category: virtualization
+  replaces: [VMware Workstation Pro]
+  group: not-a-replacement
+  reason: Ubuntu-only VMs, so not a fair replacement for a general VM product; Canonical sells other products.
+  checked: '2026-11-21'
+
+- id: musescore-studio
+  name: MuseScore Studio
+  url: https://musescore.org
+  repo: https://github.com/musescore/MuseScore
+  category: audio
+  replaces: [Avid Sibelius, Steinberg Dorico, Finale]
+  group: sells
+  reason: Muse Group sells paid sound libraries promoted on the download page.
+  checked: '2026-11-21'
+
+- id: mysql-workbench
+  name: MySQL Workbench
+  url: https://www.mysql.com/products/workbench/
+  repo: https://github.com/mysql/mysql-workbench
+  category: developer-tools
+  replaces: [Navicat for MySQL]
+  group: sells
+  reason: Oracle sells Commercial Standard and Enterprise editions.
+  checked: '2026-11-21'
+
+- id: nagios-core
+  name: Nagios Core
+  url: https://www.nagios.org
+  repo: https://github.com/NagiosEnterprises/nagioscore
+  category: remote-access-networking
+  replaces: [PRTG, SolarWinds NPM]
+  group: sells
+  reason: Nagios Enterprises sells Nagios XI, the commercial edition built on Core.
+  checked: '2026-11-21'
+
+- id: nanazip
+  name: NanaZip
+  url: https://nanazip.org
+  repo: https://github.com/M2Team/NanaZip
+  category: file-management
+  replaces: [WinRAR, WinZip]
+  group: sells
+  reason: Sells a "Sponsor Edition" add-on (paid add-on).
+  checked: '2026-11-21'
+
+- id: netdata
+  name: Netdata
+  url: https://www.netdata.cloud
+  repo: https://github.com/netdata/netdata
+  category: system-utilities
+  replaces: [Datadog]
+  group: sells
+  reason: Sells Netdata Cloud subscriptions.
+  checked: '2026-11-21'
+
+- id: nextcloud-desktop
+  name: Nextcloud Desktop
+  url: https://nextcloud.com/install/#install-clients
+  repo: https://github.com/nextcloud/desktop
+  category: backup-sync-migration
+  replaces: [Dropbox, Google Drive]
+  group: sells
+  reason: Nextcloud GmbH sells Enterprise subscriptions and hosted plans.
+  checked: '2026-11-21'
+
+- id: nmap-zenmap
+  name: Nmap / Zenmap
+  url: https://nmap.org
+  repo: https://github.com/nmap/nmap
+  category: remote-access-networking
+  replaces: [SolarWinds Port Scanner, NetScanTools Pro]
+  group: license
+  reason: Nmap Public Source License is not OSI-approved; project sells Nmap OEM licences.
+  checked: '2026-11-21'
+
+- id: notes-nuttyartist
+  name: Notes (nuttyartist)
+  url: https://www.get-notes.com
+  repo: https://github.com/nuttyartist/notes
+  category: notes
+  replaces: [Apple Notes, Bear]
+  group: sells
+  reason: Sells a Pro Version license.
+  checked: '2026-11-21'
+
+- id: notesnook
+  name: Notesnook
+  url: https://notesnook.com
+  repo: https://github.com/streetwriters/notesnook
+  category: notes
+  replaces: [Evernote]
+  group: sells
+  reason: Sells subscription plans (from $1.99/month) with trials.
+  checked: '2026-11-21'
+
+- id: olive
+  name: Olive
+  url: https://olivevideoeditor.org
+  repo: https://github.com/olive-editor/olive
+  category: video-streaming
+  replaces: [Adobe Premiere Pro]
+  group: inactive
+  reason: 'Inactive: last commit 2024-12-05; only nightly alpha builds.'
+  checked: '2026-11-21'
+
+- id: onlyoffice-desktop-editors
+  name: ONLYOFFICE Desktop Editors
+  url: https://www.onlyoffice.com
+  repo: https://github.com/ONLYOFFICE/DesktopEditors
+  category: office-pdf
+  replaces: [Microsoft Office]
+  group: sells
+  reason: Ascensio sells ONLYOFFICE Docs Enterprise/Home Server and paid cloud plans.
+  checked: '2026-11-21'
+
+- id: opencloud
+  name: OpenCloud
+  url: https://opencloud.eu
+  repo: https://github.com/opencloud-eu/opencloud
+  category: backup-sync-migration
+  replaces: [Dropbox Business, Box]
+  group: sells
+  reason: OpenCloud GmbH sells enterprise subscriptions.
+  checked: '2026-11-21'
+
+- id: opennms-horizon
+  name: OpenNMS Horizon
+  url: https://www.opennms.com
+  repo: https://github.com/OpenNMS/opennms
+  category: remote-access-networking
+  replaces: [SolarWinds NPM, PRTG]
+  group: sells
+  reason: Sells the Meridian subscription edition.
+  checked: '2026-11-21'
+
+- id: openscreen-original
+  name: OpenScreen (original)
+  url: https://github.com/siddharthvaddem/openscreen
+  repo: https://github.com/siddharthvaddem/openscreen
+  category: screen-capture
+  replaces: [Screen Studio]
+  group: inactive
+  reason: Archived on 2026-10-17; development continues at getopenscreen/openscreen (listed separately).
+  checked: '2026-11-21'
+
+- id: padloc
+  name: Padloc
+  url: https://padloc.app
+  repo: https://github.com/padloc/padloc
+  category: security-passwords
+  replaces: [1Password]
+  group: sells
+  reason: Sells Premium, Family and Team plans with trials; last stable release 2023.
+  checked: '2026-11-21'
+
+- id: papermerge
+  name: Papermerge
+  url: https://papermerge.dev
+  repo: https://github.com/papermerge/papermerge-core
+  category: office-pdf
+  replaces: [DocuWare]
+  group: sells
+  reason: Original author sells Papermerge Cloud, a paid SaaS version.
+  checked: '2026-11-21'
+
+- id: passbolt
+  name: Passbolt
+  url: https://www.passbolt.com
+  repo: https://github.com/passbolt/passbolt_api
+  category: security-passwords
+  replaces: [1Password Teams]
+  group: sells
+  reason: Sells Pro and Enterprise editions.
+  checked: '2026-11-21'
+
+- id: pdfsam-basic
+  name: PDFsam Basic
+  url: https://pdfsam.org
+  repo: https://github.com/torakiki/pdfsam
+  category: office-pdf
+  replaces: [Adobe Acrobat Pro]
+  group: sells
+  reason: Same company sells PDFsam Visual and PDFsam Enhanced (trials, licenses, subscriptions).
+  checked: '2026-11-21'
+
+- id: pearcleaner
+  name: Pearcleaner
+  url: https://itsalin.com/appInfo/?id=pearcleaner
+  repo: https://github.com/alienator88/Pearcleaner
+  category: system-utilities
+  replaces: [CleanMyMac, AppCleaner]
+  group: license
+  reason: Commons Clause license (not OSI-approved).
+  checked: '2026-11-21'
+
+- id: peek
+  name: Peek
+  url: https://github.com/phw/peek
+  repo: https://github.com/phw/peek
+  category: screen-capture
+  replaces: [Gifox]
+  group: inactive
+  reason: Repository archived; last release 2020.
+  checked: '2026-11-21'
+
+- id: penpot
+  name: Penpot
+  url: https://penpot.app
+  repo: https://github.com/penpot/penpot
+  category: photo-graphics
+  replaces: [Figma]
+  group: sells
+  reason: 'Sells hosted cloud plans and an enterprise tier (re-checked under the self-hosted rule: still out).'
+  checked: '2026-11-21'
+
+- id: photoprism
+  name: PhotoPrism
+  url: https://www.photoprism.app
+  repo: https://github.com/photoprism/photoprism
+  category: photo-graphics
+  replaces: [Google One (Google Photos storage)]
+  group: sells
+  reason: Sells Essentials and Plus memberships that unlock extra features.
+  checked: '2026-11-21'
+
+- id: picocrypt
+  name: Picocrypt
+  url: https://github.com/Picocrypt/Picocrypt
+  repo: https://github.com/Picocrypt/Picocrypt
+  category: security-passwords
+  replaces: [AxCrypt Premium]
+  group: inactive
+  reason: Repository archived; last commit 2025-09-07 (see Picocrypt-NG fork).
+  checked: '2026-11-21'
+
+- id: portainer-ce
+  name: Portainer CE
+  url: https://www.portainer.io
+  repo: https://github.com/portainer/portainer
+  category: virtualization
+  replaces: [Docker Desktop]
+  group: sells
+  reason: Sells Portainer Business Edition.
+  checked: '2026-11-21'
+
+- id: portmaster
+  name: Portmaster
+  url: https://safing.io
+  repo: https://github.com/safing/portmaster
+  category: security-passwords
+  replaces: [Little Snitch, GlassWire]
+  group: sells
+  reason: Sells Portmaster Plus and Pro plans.
+  checked: '2026-11-21'
+
+- id: privacy-sexy
+  name: privacy.sexy
+  url: https://privacy.sexy
+  repo: https://github.com/undergroundwires/privacy.sexy
+  category: system-utilities
+  replaces: [Advanced SystemCare Pro]
+  group: inactive
+  reason: 'Inactive: last commit 2025-04-21, last release 2025-03-13.'
+  checked: '2026-11-21'
+
+- id: projectlibre
+  name: ProjectLibre
+  url: https://www.projectlibre.com
+  repo: https://sourceforge.net/projects/projectlibre/
+  category: office-pdf
+  replaces: [Microsoft Project]
+  group: sells
+  reason: Sells ProjectLibre Cloud subscriptions with trials and a coming Pro edition.
+  checked: '2026-11-21'
+
+- id: proxmox-ve
+  name: Proxmox VE
+  url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
+  repo: https://git.proxmox.com/?p=pve-manager.git
+  category: virtualization
+  replaces: [VMware vSphere/ESXi, Microsoft Hyper-V Server (licensed)]
+  group: sells
+  reason: Sells enterprise repository subscriptions.
+  checked: '2026-11-21'
+
+- id: qcad
+  name: QCAD
+  url: https://qcad.org
+  repo: https://github.com/qcad/qcad
+  category: 3d-cad
+  replaces: [AutoCAD LT]
+  group: sells
+  reason: Sells QCAD Professional and QCAD/CAM; the free Community Edition is the reduced edition.
+  checked: '2026-11-21'
+
+- id: qt-creator
+  name: Qt Creator
+  url: https://www.qt.io/product/development-tools
+  repo: https://github.com/qt-creator/qt-creator
+  category: developer-tools
+  replaces: [CLion]
+  group: sells
+  reason: Qt Company sells commercial licences that cover Qt Creator.
+  checked: '2026-11-21'
+
+- id: quickrecorder
+  name: QuickRecorder
+  url: https://lihaoyun6.github.io/quickrecorder/
+  repo: https://github.com/lihaoyun6/QuickRecorder
+  category: screen-capture
+  replaces: [CleanShot X]
+  group: inactive
+  reason: 'Inactive: last commit and release 2025-06-11.'
+  checked: '2026-11-21'
+
+- id: rancher-desktop
+  name: Rancher Desktop
+  url: https://rancherdesktop.io
+  repo: https://github.com/rancher-sandbox/rancher-desktop
+  category: virtualization
+  replaces: [Docker Desktop (business subscription)]
+  group: sells
+  reason: SUSE sells Rancher Developer Access, a paid subscription used inside the app.
+  checked: '2026-11-21'
+
+- id: rclone-ui
+  name: Rclone UI
+  url: https://rcloneui.com
+  repo: https://github.com/rclone/rclone-ui
+  category: backup-sync-migration
+  replaces: [ExpanDrive, CloudMounter, Mountain Duck]
+  group: sells
+  reason: 'Paid mobile app and subscription tier: no paid cloud, ever.'
+  checked: '2026-11-21'
+
+- id: rectangle
+  name: Rectangle
+  url: https://rectangleapp.com
+  repo: https://github.com/rxhanson/Rectangle
+  category: system-utilities
+  replaces: [Magnet, Moom]
+  group: sells
+  reason: Sells Rectangle Pro, built on the same app.
+  checked: '2026-11-21'
+
+- id: remotely
+  name: Remotely
+  url: https://github.com/immense/Remotely
+  repo: https://github.com/immense/Remotely
+  category: remote-access-networking
+  replaces: [TeamViewer]
+  group: inactive
+  reason: 'Inactive: last commit 2024-12-17, last release 2024-08-12.'
+  checked: '2026-11-21'
+
+- id: restic-browser
+  name: Restic Browser
+  url: https://github.com/emuell/restic-browser
+  repo: https://github.com/emuell/restic-browser
+  category: backup-sync-migration
+  replaces: [Arq Backup]
+  group: not-a-replacement
+  reason: Browse/restore only ("not a fullblown restic backup GUI"), so not a fair replacement for a backup product.
+  checked: '2026-11-21'
+
+- id: rustdesk
+  name: RustDesk
+  url: https://rustdesk.com
+  repo: https://github.com/rustdesk/rustdesk
+  category: remote-access-networking
+  replaces: [TeamViewer, AnyDesk]
+  group: sells
+  reason: Sells RustDesk Server Pro (paid self-hosting tiers).
+  checked: '2026-11-21'
+
+- id: saber
+  name: Saber
+  url: https://saber.adil.hanney.org
+  repo: https://github.com/saber-notes/saber
+  category: notes
+  replaces: [GoodNotes, Notability]
+  group: sells
+  reason: Sells extra cloud storage on its own sync server through sponsorship tiers ($5-$7/month).
+  checked: '2026-11-21'
+
+- id: sandboxie-plus
+  name: Sandboxie-Plus
+  url: https://sandboxie-plus.com
+  repo: https://github.com/sandboxie-plus/Sandboxie
+  category: security-passwords
+  replaces: [Shade Sandbox]
+  group: sells
+  reason: Some features require a paid supporter certificate or Patreon subscription.
+  checked: '2026-11-21'
+
+- id: scalar
+  name: Scalar
+  url: https://scalar.com
+  repo: https://github.com/scalar/scalar
+  category: developer-tools
+  replaces: [Postman]
+  group: sells
+  reason: Sells Pro, Business and Enterprise plans.
+  checked: '2026-11-21'
+
+- id: seafile
+  name: Seafile
+  url: http://seafile.com/
+  repo: https://github.com/haiwen/seafile
+  category: backup-sync-migration
+  replaces: [Dropbox Business]
+  group: sells
+  reason: Sells Seafile Professional Edition.
+  checked: '2026-11-21'
+
+- id: sftpgo
+  name: SFTPGo
+  url: https://sftpgo.com
+  repo: https://github.com/drakkan/sftpgo
+  category: file-management
+  replaces: [Serv-U]
+  group: sells
+  reason: Sells SFTPGo Enterprise (commercial edition).
+  checked: '2026-11-21'
+
+- id: shutter-encoder
+  name: Shutter Encoder
+  url: https://www.shutterencoder.com
+  repo: https://github.com/paulpacifico/shutter-encoder
+  category: video-streaming
+  replaces: [Adobe Media Encoder, Apple Compressor]
+  group: sells
+  reason: Sells paid add-on plugins.
+  checked: '2026-11-21'
+
+- id: sikarugir
+  name: Sikarugir
+  url: https://github.com/Sikarugir-App/Sikarugir
+  repo: https://github.com/Sikarugir-App/Sikarugir
+  category: virtualization
+  replaces: [CrossOver]
+  group: license
+  reason: No LICENSE file at the repo root and no license detected by GitHub.
+  checked: '2026-11-21'
+
+- id: silverbullet
+  name: SilverBullet
+  url: https://silverbullet.md
+  repo: https://github.com/silverbulletmd/silverbullet
+  category: notes
+  replaces: [Obsidian]
+  group: sells
+  reason: Sells Desktop Pro ($50/user/year).
+  checked: '2026-11-21'
+
+- id: sioyek
+  name: Sioyek
+  url: https://sioyek.info
+  repo: https://github.com/ahrm/sioyek
+  category: office-pdf
+  replaces: [Adobe Acrobat Reader]
+  group: not-a-replacement
+  reason: Reader only, does not replace a paid product; last stable release v2.0.0 (Dec 2022).
+  checked: '2026-11-21'
+
+- id: siyuan
+  name: SiYuan
+  url: https://b3log.org/siyuan/en/
+  repo: https://github.com/siyuan-note/siyuan
+  category: notes
+  replaces: [Notion, Obsidian]
+  group: sells
+  reason: Sells PRO features and a cloud sync subscription.
+  checked: '2026-11-21'
+
+- id: snappy-driver-installer-origin
+  name: Snappy Driver Installer Origin
+  url: https://www.glenn.delahoy.com/snappy-driver-installer-origin/
+  repo: https://sourceforge.net/projects/snappy-driver-installer-origin/
+  category: system-utilities
+  replaces: [Driver Booster Pro, Driver Easy Pro, DriverMax Pro]
+  group: license
+  reason: No LICENSE file in the repo.
+  checked: '2026-11-21'
+
+- id: spacedrive
+  name: Spacedrive
+  url: https://spacedrive.com
+  repo: https://github.com/spacedriveapp/spacedrive
+  category: file-management
+  replaces: [Directory Opus]
+  group: sells
+  reason: New v2 app is sold as a one-time purchase; last stable open release 0.4.3 (2025-03).
+  checked: '2026-11-21'
+
+- id: stable-diffusion-web-ui-automatic1111
+  name: Stable Diffusion web UI (AUTOMATIC1111)
+  url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  repo: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  category: photo-graphics
+  replaces: [Midjourney]
+  group: inactive
+  reason: 'Inactive: last commit 2024-07-27 and last release 2025-02-09, both before 2025-11-21.'
+  checked: '2026-11-21'
+
+- id: stacer
+  name: Stacer
+  url: https://github.com/oguzhaninan/Stacer
+  repo: https://github.com/oguzhaninan/Stacer
+  category: system-utilities
+  replaces: [CCleaner Pro]
+  group: inactive
+  reason: 'Inactive: last release 2019, last push 2024-02.'
+  checked: '2026-11-21'
+
+- id: stalwart-mail-server
+  name: Stalwart Mail Server
+  url: https://stalw.art
+  repo: https://github.com/stalwartlabs/stalwart
+  category: email
+  replaces: [Microsoft Exchange]
+  group: sells
+  reason: Sells an Enterprise edition with extra features.
+  checked: '2026-11-21'
+
+- id: standard-notes
+  name: Standard Notes
+  url: https://standardnotes.com
+  repo: https://github.com/standardnotes/app
+  category: notes
+  replaces: [Evernote]
+  group: sells
+  reason: Sells Productivity and Professional subscriptions.
+  checked: '2026-11-21'
+
+- id: stats
+  name: Stats
+  url: https://mac-stats.com
+  repo: https://github.com/exelban/stats
+  category: system-utilities
+  replaces: [iStat Menus]
+  group: sells
+  reason: Built-in Remote module feeds the author's paid cloud dashboard (System Stats Pro/Organization plans).
+  checked: '2026-11-21'
+
+- id: stirling-pdf
+  name: Stirling-PDF
+  url: https://www.stirling.com
+  repo: https://github.com/Stirling-Tools/Stirling-PDF
+  category: office-pdf
+  replaces: [Adobe Acrobat Pro]
+  group: sells
+  reason: Sells Team ($99/mo) and Enterprise plans; part of the repo is proprietary.
+  checked: '2026-11-21'
+
+- id: strongbox
+  name: Strongbox
+  url: https://strongboxsafe.com
+  repo: https://github.com/strongbox-password-safe/Strongbox
+  category: security-passwords
+  replaces: [1Password]
+  group: sells
+  reason: Sells Strongbox Pro (subscription or lifetime).
+  checked: '2026-11-21'
+
+- id: sumatrapdf
+  name: SumatraPDF
+  url: https://www.sumatrapdfreader.org
+  repo: https://github.com/sumatrapdfreader/sumatrapdf
+  category: office-pdf
+  replaces: [Adobe Acrobat Reader, Foxit PDF Reader]
+  group: not-a-replacement
+  reason: Replaces free PDF readers, not paid software.
+  checked: '2026-11-21'
+
+- id: svg-png-tool
+  name: SVG-PNG-Tool
+  url: https://github.com/RandyNorthrup/SVG-PNG-Tool
+  repo: https://github.com/RandyNorthrup/SVG-PNG-Tool
+  category: photo-graphics
+  replaces: [Paid icon and image converters]
+  group: no-release
+  reason: 'No downloadable release yet (runs from source with Python). Also: README says MIT but the LICENSE file is GPL-3.0.'
+  maintainer: true
+  checked: '2026-11-21'
+
+- id: tactical-rmm
+  name: Tactical RMM
+  url: https://docs.tacticalrmm.com
+  repo: https://github.com/amidaware/tacticalrmm
+  category: remote-access-networking
+  replaces: [ConnectWise Automate, NinjaOne]
+  group: license
+  reason: Custom source-available licence, not OSI.
+  checked: '2026-11-21'
+
+- id: tagspaces
+  name: TagSpaces
+  url: https://www.tagspaces.org
+  repo: https://github.com/tagspaces/tagspaces
+  category: file-management
+  replaces: [Tabbles]
+  group: sells
+  reason: Sells TagSpaces Pro; Pro components are proprietary.
+  checked: '2026-11-21'
+
+- id: teampass
+  name: TeamPass
+  url: https://teampass.net
+  repo: https://github.com/nilsteampassnet/TeamPass
+  category: security-passwords
+  replaces: [1Password Teams]
+  group: sells
+  reason: Sells a Pro browser extension license with a trial.
+  checked: '2026-11-21'
+
+- id: text-grab
+  name: Text Grab
+  url: https://textgrab.net
+  repo: https://github.com/TheJoeFin/Text-Grab
+  category: screen-capture
+  replaces: [TextSniper]
+  group: sells
+  reason: Paid Microsoft Store edition with store-exclusive features.
+  checked: '2026-11-21'
+
+- id: thunderbird
+  name: Thunderbird
+  url: https://www.thunderbird.net
+  repo: https://hg.mozilla.org/comm-central
+  category: email
+  replaces: [Microsoft Outlook, eM Client, Mailbird]
+  group: sells
+  reason: Same team sells Thundermail / Thunderbird Pro hosted email. Betterbird is listed instead.
+  checked: '2026-11-21'
+
+- id: tiddlydesktop
+  name: TiddlyDesktop
+  url: https://tiddlywiki.com
+  repo: https://github.com/TiddlyWiki/TiddlyDesktop
+  category: notes
+  replaces: [Evernote]
+  group: license
+  reason: No LICENSE file in the repo (package.json only says 'BSD').
+  checked: '2026-11-21'
+
+- id: trojita
+  name: Trojita
+  url: https://invent.kde.org/pim/trojita
+  repo: https://github.com/KDE/trojita
+  category: email
+  replaces: [Microsoft Outlook]
+  group: inactive
+  reason: Last release 0.7 in June 2016; only maintenance commits since.
+  checked: '2026-11-21'
+
+- id: tuta-mail
+  name: Tuta Mail
+  url: https://tuta.com
+  repo: https://github.com/tutao/tutanota
+  category: email
+  replaces: [Microsoft Outlook]
+  group: sells
+  reason: Sells paid Tuta mail plans (Revolutionary, Legend, business).
+  checked: '2026-11-21'
+
+- id: twinkle-tray
+  name: Twinkle Tray
+  url: https://twinkletray.com
+  repo: https://github.com/xanderfrangos/twinkle-tray
+  category: system-utilities
+  replaces: [DisplayFusion Pro]
+  group: not-a-replacement
+  reason: No well-known paid product it fairly replaces (main job is covered by free tools); otherwise passes.
+  checked: '2026-11-21'
+
+- id: ultimaker-cura
+  name: UltiMaker Cura
+  url: https://ultimaker.com/software/ultimaker-cura/
+  repo: https://github.com/Ultimaker/Cura
+  category: 3d-cad
+  replaces: [Simplify3D]
+  group: sells
+  reason: UltiMaker sells Cura Enterprise through paid business subscriptions (an enterprise edition).
+  checked: '2026-11-21'
+
+- id: ultimate-vocal-remover
+  name: Ultimate Vocal Remover
+  url: https://github.com/Anjok07/ultimatevocalremovergui
+  repo: https://github.com/Anjok07/ultimatevocalremovergui
+  category: audio
+  replaces: [RipX DAW, iZotope RX (Music Rebalance)]
+  group: license
+  reason: 'No LICENSE file in the repo: the README''s ''MIT-licensed'' link points to a missing file (GitHub license API returns 404).'
+  checked: '2026-11-21'
+
+- id: upscayl
+  name: Upscayl
+  url: https://upscayl.org
+  repo: https://github.com/upscayl/upscayl
+  category: photo-graphics
+  replaces: [Topaz Gigapixel AI]
+  group: sells
+  reason: Sells Upscayl Cloud (paid subscription and credits, with a trial).
+  checked: '2026-11-21'
+
+- id: urbackup
+  name: UrBackup
+  url: http://www.urbackup.org
+  repo: https://github.com/uroni/urbackup_backend
+  category: backup-sync-migration
+  replaces: [Acronis Cyber Protect, Veeam Agent]
+  group: sells
+  reason: Sells paid add-ons, appliances and cloud server.
+  checked: '2026-11-21'
+
+- id: vcv-rack
+  name: VCV Rack
+  url: https://vcvrack.com
+  repo: https://github.com/VCVRack/Rack
+  category: audio
+  replaces: [Native Instruments Reaktor]
+  group: sells
+  reason: Sells VCV Rack Pro and paid modules; Rack Free is the reduced edition.
+  checked: '2026-11-21'
+
+- id: veracrypt
+  name: VeraCrypt
+  url: https://www.veracrypt.fr
+  repo: https://github.com/veracrypt/VeraCrypt
+  category: security-passwords
+  replaces: [BestCrypt, Symantec Endpoint Encryption]
+  group: license
+  reason: TrueCrypt License 3.0 portions are not OSI-approved.
+  checked: '2026-11-21'
+
+- id: virtualbox
+  name: VirtualBox
+  url: https://www.virtualbox.org
+  repo: https://github.com/VirtualBox/virtualbox
+  category: virtualization
+  replaces: [VMware Workstation Pro, Parallels Desktop]
+  group: sells
+  reason: Oracle sells the proprietary Extension Pack for commercial use (paid add-on by the project).
+  checked: '2026-11-21'
+
+- id: visual-studio-code
+  name: Visual Studio Code
+  url: https://code.visualstudio.com
+  repo: https://github.com/microsoft/vscode
+  category: developer-tools
+  replaces: [Sublime Text]
+  group: license
+  reason: Official builds use a proprietary Microsoft licence and push paid Copilot; VSCodium covers it.
+  checked: '2026-11-21'
+
+- id: vital
+  name: Vital
+  url: https://vital.audio
+  repo: https://github.com/mtytel/vital
+  category: audio
+  replaces: [Xfer Serum]
+  group: sells
+  reason: Vital Audio sells Vital Pro/Plus; the open-source repo has had no commits since 2022-04-20.
+  checked: '2026-11-21'
+
+- id: webcamoid
+  name: Webcamoid
+  url: https://webcamoid.github.io
+  repo: https://github.com/webcamoid/webcamoid
+  category: video-streaming
+  replaces: [ManyCam]
+  group: sells
+  reason: Sells stable binaries; macOS builds only for paying sponsors.
+  checked: '2026-11-21'
+
+- id: webmin
+  name: Webmin
+  url: http://www.webmin.com/
+  repo: https://github.com/webmin/webmin
+  category: system-utilities
+  replaces: [cPanel/WHM, Plesk]
+  group: sells
+  reason: Its team sells Virtualmin Pro, a paid module that runs inside Webmin (paid add-on).
+  checked: '2026-11-21'
+
+- id: webvirtcloud
+  name: WebVirtCloud
+  url: https://github.com/retspen/webvirtcloud
+  repo: https://github.com/retspen/webvirtcloud
+  category: virtualization
+  replaces: [VMware vSphere]
+  group: license
+  reason: No LICENSE file in repo and no tagged release since 2015.
+  checked: '2026-11-21'
+
+- id: whisky
+  name: Whisky
+  url: https://getwhisky.app
+  repo: https://github.com/Whisky-App/Whisky
+  category: virtualization
+  replaces: [CrossOver]
+  group: inactive
+  reason: Archived (read-only) since 2025; last release 2025-04-05.
+  checked: '2026-11-21'
+
+- id: wincdemu
+  name: WinCDEmu
+  url: https://github.com/sysprogs/WinCDEmu
+  repo: https://github.com/sysprogs/WinCDEmu
+  category: disk-partitions
+  replaces: [Daemon Tools, PowerISO]
+  group: inactive
+  reason: 'Inactive: last commit 2019-08-13, last release 2019-01-25.'
+  checked: '2026-11-21'
+
+- id: windterm
+  name: WindTerm
+  url: https://kingtoolbox.github.io
+  repo: https://github.com/kingToolbox/WindTerm
+  category: remote-access-networking
+  replaces: [SecureCRT, Termius]
+  group: license
+  reason: No licence detected on the repo (only parts of the source are published); last release 2025-03-11.
+  checked: '2026-11-21'
+
+- id: winfr-pro
+  name: WinFR Pro
+  url: https://github.com/kil0bit-kb/winfr-pro
+  repo: https://github.com/kil0bit-kb/winfr-pro
+  category: data-recovery
+  replaces: [Recuva Pro, EaseUS Data Recovery Wizard]
+  group: no-release
+  reason: Beta pre-release only, 74 stars, not widely used; wraps Microsoft's proprietary winfr CLI.
+  checked: '2026-11-21'
+
+- id: wings-3d
+  name: Wings 3D
+  url: http://www.wings3d.com
+  repo: https://github.com/dgud/wings
+  category: 3d-cad
+  replaces: [Autodesk Maya (modeling)]
+  group: license
+  reason: Tcl/Tk-style license (SPDX TCL) is not OSI-approved.
+  checked: '2026-11-21'
+
+- id: wino-mail
+  name: Wino Mail
+  url: https://www.winomail.app
+  repo: https://github.com/bkaankose/Wino-Mail
+  category: email
+  replaces: [Microsoft Outlook]
+  group: sells
+  reason: Sells an Unlimited Accounts add-on (free tier capped at 3 accounts) and a Wino Intelligence subscription.
+  checked: '2026-11-21'
+
+- id: yaade
+  name: Yaade
+  url: https://github.com/EsperoTech/yaade
+  repo: https://github.com/EsperoTech/yaade
+  category: developer-tools
+  replaces: [Postman]
+  group: inactive
+  reason: 'Inactive: last commit 2025-05-19.'
+  checked: '2026-11-21'
+
+- id: yaak
+  name: Yaak
+  url: https://yaak.app
+  repo: https://github.com/mountain-loop/yaak
+  category: developer-tools
+  replaces: [Postman, Insomnia]
+  group: sells
+  reason: Paid licence required for commercial use.
+  checked: '2026-11-21'
+
+- id: yacht
+  name: Yacht
+  url: https://github.com/SelfhostedPro/Yacht
+  repo: https://github.com/SelfhostedPro/Yacht
+  category: developer-tools
+  replaces: [Portainer Business]
+  group: inactive
+  reason: 'Inactive: alpha tags from 2021, no code changes since.'
+  checked: '2026-11-21'
+
+- id: zabbix
+  name: Zabbix
+  url: https://www.zabbix.com
+  repo: https://github.com/zabbix/zabbix
+  category: remote-access-networking
+  replaces: [PRTG, SolarWinds NPM]
+  group: sells
+  reason: Sells Zabbix Cloud (paid SaaS) plus support subscriptions.
+  checked: '2026-11-21'
+
+- id: zed
+  name: Zed
+  url: https://zed.dev
+  repo: https://github.com/zed-industries/zed
+  category: developer-tools
+  replaces: [Sublime Text]
+  group: sells
+  reason: Sells Zed Pro and Business plans.
+  checked: '2026-11-21'
+
+- id: zotero
+  name: Zotero
+  url: https://www.zotero.org
+  repo: https://github.com/zotero/zotero
+  category: office-pdf
+  replaces: [EndNote, Citavi]
+  group: sells
+  reason: Sells Zotero Storage sync subscriptions ($20-$120/year).
+  checked: '2026-11-21'
+
+- id: zrythm
+  name: Zrythm
+  url: https://www.zrythm.org
+  repo: https://github.com/zrythm/zrythm
+  category: audio
+  replaces: [FL Studio, Ableton Live]
+  group: sells
+  reason: Sells installers by purchase or subscription.
+  checked: '2026-11-21'

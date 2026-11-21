@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: The rules
+    url: https://github.com/RandyNorthrup/price-tag-zero/blob/main/CONTRIBUTING.md#the-rules
+    about: Every app must pass all of them. Worth a read before suggesting one.
+  - name: Why isn't X here?
+    url: https://github.com/RandyNorthrup/price-tag-zero/blob/main/EXCLUDED.md
+    about: Popular apps that were checked and aren't listed, with the reason for each.

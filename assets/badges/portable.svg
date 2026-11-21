@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.4" height="20" viewBox="0 0 62.4 20" role="img" aria-label="Portable: runs without installing">
+<!-- GENERATED FILE: do not edit by hand. Edit the files in data/ and run: python scripts/build.py -->
+<title>Portable: runs without installing</title>
+<rect x="2.5" y="2.5" width="59.4" height="17" rx="4" fill="#FF3D89"/>
+<rect x="0.5" y="0.5" width="59.4" height="17" rx="4" fill="#FFFFFF" stroke="#000000"/>
+<text x="6.5" y="12.6" fill="#000000" font-family="Verdana,Geneva,'DejaVu Sans',sans-serif" font-size="10" font-weight="bold" textLength="47.4" lengthAdjust="spacingAndGlyphs">Portable</text>
+</svg>

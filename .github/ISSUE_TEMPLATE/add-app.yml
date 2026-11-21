@@ -1,0 +1,175 @@
+name: Suggest an app
+description: Suggest a free, open-source app with a real GUI that replaces paid software.
+title: "Add: "
+labels: ["add-app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an app. Every app on Price Tag Zero passes **every** rule in the [contributing guide](https://github.com/RandyNorthrup/price-tag-zero/blob/main/CONTRIBUTING.md#the-rules), and a maintainer checks the evidence before it's added. Links that prove each point make that quick.
+
+        Before you start, check that the app isn't already listed, and look it up in [Why isn't X here?](https://github.com/RandyNorthrup/price-tag-zero/blob/main/EXCLUDED.md). If it's there, tell us what has changed.
+
+  - type: input
+    id: name
+    attributes:
+      label: App name
+      placeholder: Krita
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Homepage
+      description: The project's website, or its repository if it has no website.
+      placeholder: https://krita.org
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Source repository
+      placeholder: https://invent.kde.org/graphics/krita
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Disk & Partitions
+        - Backup, Sync & Migration
+        - Data Recovery
+        - System Utilities
+        - Email
+        - Office & PDF
+        - Photo & Graphics
+        - 3D & CAD
+        - Audio
+        - Video & Streaming
+        - Screen Capture
+        - Remote Access & Networking
+        - Security & Passwords
+        - Developer Tools
+        - Notes
+        - File Management
+        - Virtualization
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: What it does, in plain words. 90 characters or fewer, ending with a period. Don't start with the app's name.
+      placeholder: Digital painting app with brush engines, layers and animation.
+    validations:
+      required: true
+
+  - type: input
+    id: replaces
+    attributes:
+      label: Paid software it replaces
+      description: 1 to 3 well-known paid products whose main job it does, separated by commas.
+      placeholder: Adobe Photoshop, Clip Studio Paint, Corel Painter
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Tick every platform with an official release.
+      options:
+        - label: Windows
+        - label: macOS
+        - label: Linux
+        - label: Self-hosted (a web app you run on your own computer or server)
+
+  - type: dropdown
+    id: portable
+    attributes:
+      label: Portable build
+      description: Is there an official build that runs without installing?
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License (SPDX id)
+      description: As written in the LICENSE file. It must be OSI-approved.
+      placeholder: GPL-3.0-or-later
+    validations:
+      required: true
+
+  - type: input
+    id: license_url
+    attributes:
+      label: "Evidence: link to the LICENSE file"
+      placeholder: https://github.com/owner/app/blob/main/LICENSE
+    validations:
+      required: true
+
+  - type: input
+    id: release_url
+    attributes:
+      label: "Evidence: link to the latest downloadable release, and its date"
+      placeholder: https://github.com/owner/app/releases/tag/v2.1.0 (2026-10-02)
+    validations:
+      required: true
+
+  - type: textarea
+    id: money
+    attributes:
+      label: "Evidence: proof that nothing is for sale"
+      description: |
+        The pages you checked (pricing page, website, README, app-store listings) and what you found. Mention anything involving money: donation buttons, sponsors, store versions, hosted versions, paid support.
+      placeholder: |
+        https://example.org/pricing: no pricing page, no paid tier. Donations through Open Collective unlock nothing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: gui
+    attributes:
+      label: "Evidence: proof of a real GUI"
+      description: A link to screenshots (README, website or store listing), or paste one here.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: The rules
+      description: Every one must be true. If you're not sure about one, say so under "Anything else?" instead of ticking it.
+      options:
+        - label: "Open source: an OSI-approved license, with a LICENSE file in the repo."
+          required: true
+        - label: "A real GUI: a desktop app for Windows, macOS or Linux, or a self-hosted web app. Not command-line only."
+          required: true
+        - label: "A downloadable release exists: a release, installer, or store or package listing."
+          required: true
+        - label: "Nothing for sale: no Pro tier, trial, subscription, paid add-ons, paid cloud, sync or hosting, enterprise edition, paid commercial license or in-app ads."
+          required: true
+        - label: "Donations, if any, block nothing now and can't later."
+          required: true
+        - label: "Active: a commit or release in the last 12 months."
+          required: true
+        - label: "It does the main job of well-known paid software."
+          required: true
+        - label: "It isn't already listed, and I checked Why isn't X here?"
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Edge cases, doubts, or a connection to the project you'd like to mention.

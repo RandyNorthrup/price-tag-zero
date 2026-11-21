@@ -1,0 +1,51 @@
+# Price Tag Zero: notable paid apps that no free tool passes the rules for yet.
+# The README's "Gaps" section is generated from this file by scripts/build.py.
+#
+# Fields
+#   product   the paid product (or kind of product)
+#   job       the job a replacement has to do, as a short phrase
+#   status    the closest candidates and why they don't pass yet, one or two sentences
+
+- product: Pro Tools
+  job: professional multitrack recording, editing and mixing
+  status: Ardour comes closest, but its ready-to-run builds are sold.
+
+- product: Sibelius
+  job: professional music notation
+  status: MuseScore Studio comes closest, but its maker sells sound libraries on the download page.
+
+- product: VMware Workstation on Windows
+  job: full desktop virtual machines on Windows
+  status: VirtualBox's Extension Pack is sold for commercial use. Linux and macOS are covered (virt-manager, GNOME Boxes, UTM).
+
+- product: Figma
+  job: collaborative interface design and prototyping
+  status: Penpot comes closest, but it sells hosted plans and an enterprise tier.
+
+- product: Notion
+  job: an all-in-one workspace of docs, databases and tasks
+  status: AFFiNE, AppFlowy, Anytype and SiYuan all sell plans. The wikis and note apps listed here cover parts of it.
+
+- product: VeraCrypt-style encryption
+  job: encrypted volumes and whole-disk encryption on Windows and macOS
+  status: VeraCrypt's license is not OSI-approved. zuluCrypt covers Linux, and Picocrypt-NG and SiriKali handle files and folders.
+
+- product: Antivirus
+  job: a desktop antivirus with a real GUI
+  status: ClamTk, the best-known ClamAV front end, has gone inactive.
+
+- product: Topaz Photo AI and Gigapixel
+  job: AI photo upscaling, sharpening and noise reduction
+  status: Upscayl comes closest, but it sells a cloud subscription.
+
+- product: iZotope RX
+  job: audio repair, noise removal and stem separation
+  status: Ultimate Vocal Remover comes closest, but its repo has no LICENSE file.
+
+- product: iStat Menus
+  job: menu-bar system monitoring on macOS
+  status: Stats comes closest, but a built-in module feeds its author's paid cloud dashboard.
+
+- product: CleanMyMac
+  job: an all-in-one Mac cleaner, uninstaller and updater
+  status: Pearcleaner uses a Commons Clause license, which is not OSI-approved. GrandPerspective and Latest cover parts of it.

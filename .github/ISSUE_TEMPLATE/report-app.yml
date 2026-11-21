@@ -1,0 +1,56 @@
+name: Report a listed app
+description: A listed app now sells something, went inactive, changed its license or otherwise broke a rule.
+title: "Report: "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Projects change, and this list only works if it keeps up. Thanks for flagging one. A maintainer re-checks the app against [the rules](https://github.com/RandyNorthrup/price-tag-zero/blob/main/CONTRIBUTING.md#the-rules), and if it no longer passes, it moves to [Why isn't X here?](https://github.com/RandyNorthrup/price-tag-zero/blob/main/EXCLUDED.md) with the reason.
+
+  - type: input
+    id: name
+    attributes:
+      label: App name
+      description: As it appears in the list.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What changed?
+      multiple: true
+      options:
+        - It now sells something (Pro tier, trial, subscription, paid add-ons, paid cloud or hosting, enterprise edition)
+        - It shows ads in the app
+        - Its license changed or isn't OSI-approved
+        - It's inactive or archived (no commit or release in 12 months)
+        - It no longer has a downloadable release
+        - A link is broken
+        - The entry is wrong (description, platforms, license or what it replaces)
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links that show the change, such as a pricing page, an announcement, the LICENSE file history or the archived repo.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Anything that helps, such as when it changed or a suggested replacement.
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked that the evidence above is current.
+          required: true
