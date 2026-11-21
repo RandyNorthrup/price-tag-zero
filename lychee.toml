@@ -14,9 +14,6 @@ accept = ["200..=299", "403", "429"]
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 
 exclude = [
-  # This repository is private until launch, so its own issue and blob links
-  # can't be fetched anonymously.
-  '^https://github\.com/RandyNorthrup/price-tag-zero',
   # These work in a browser but put automated clients behind a bot check
   # (GNOME GitLab answers 406, KDE Invent 501, scribus.net drops the connection).
   # The weekly live check still watches the projects themselves.
