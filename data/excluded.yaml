@@ -671,7 +671,7 @@
 
 - id: lychee
   name: Lychee
-  url: https://lycheeorg.dev
+  url: https://github.com/LycheeOrg/Lychee
   repo: https://github.com/LycheeOrg/Lychee
   category: photo-graphics
   replaces: [SmugMug]

@@ -55,7 +55,7 @@ The rule: nothing for sale. These projects sell a Pro or premium edition, paid f
 | [Joplin](https://joplinapp.org) | Notes | Evernote, Notion | Sells Joplin Cloud plans (2.99-9.99 EUR/month) and Joplin Server Business, with trials. |
 | [Koel](https://koel.dev) | Audio | Plex Pass (Plexamp) | Sells Koel Plus, a paid edition with extra features. |
 | [Logseq](https://logseq.com) | Notes | Obsidian, Roam Research | Official sync is gated behind paid sponsorship and planned as a subscription. |
-| [Lychee](https://lycheeorg.dev) | Photo & Graphics | SmugMug | Lychee SE is a paid edition (EUR 5/month) with extra features. |
+| [Lychee](https://github.com/LycheeOrg/Lychee) | Photo & Graphics | SmugMug | Lychee SE is a paid edition (EUR 5/month) with extra features. |
 | [mailcow](https://mailcow.email) | Email | Google Workspace, Microsoft 365 (Exchange Online) | Servercow, the maintainers' company, sells managed mailcow hosting, a paid hosted version. |
 | [Mailspring](https://getmailspring.com) | Email | Microsoft Outlook, Spark | Sells Mailspring Pro, a $8/month subscription for extra features. |
 | [MediaCMS](https://mediacms.io) | Video & Streaming | Vimeo, Kaltura | The team sells managed hosting ($2,000/month), a paid hosted version. |

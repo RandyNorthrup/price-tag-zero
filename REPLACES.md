@@ -219,7 +219,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 
 | Paid product | Free, open-source replacements |
 | --- | --- |
-| iA Writer | [ghostwriter](https://ghostwriter.kde.org), [MarkText](https://www.marktext.cc), [Zettlr](https://www.zettlr.com) |
+| iA Writer | [ghostwriter](https://ghostwriter.kde.org), [MarkText](https://github.com/marktext/marktext), [Zettlr](https://www.zettlr.com) |
 | iCloud Photos (iCloud+) | [Immich](https://immich.app), [LibrePhotos](https://docs.librephotos.com) |
 | IDA Pro | [Ghidra](https://ghidra-sre.org) |
 | Infuse Pro | [IINA](https://iina.io) |
@@ -467,7 +467,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 | TreeSize Professional | [Filelight](https://apps.kde.org/filelight/), [QDirStat](https://github.com/shundhammer/qdirstat), [WinDirStat](https://windirstat.net) |
 | Tuxera NTFS for Mac | [Nigate](https://hoochanlon.github.io/Free-NTFS-for-Mac) |
 | TVPaint Animation | [OpenToonz](https://opentoonz.github.io/e/) |
-| Typora | [MarkText](https://www.marktext.cc), [VNote](https://github.com/vnotex/vnote) |
+| Typora | [MarkText](https://github.com/marktext/marktext), [VNote](https://github.com/vnotex/vnote) |
 
 ## U
 
