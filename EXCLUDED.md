@@ -163,7 +163,7 @@ The rule: a commit or release in the last 12 months. These may well come back.
 
 | App | Category | Would replace | Why it's not listed |
 | --- | --- | --- | --- |
-| [Buttercup](https://buttercup.pw) | Security & Passwords | 1Password | Repository archived; last release Sept 2024, last commit March 2025. |
+| [Buttercup](https://github.com/buttercup/buttercup-desktop) | Security & Passwords | 1Password | Repository archived; last release Sept 2024, last commit March 2025. |
 | [Captura](https://mathewsachin.github.io/Captura/) | Screen Capture | TechSmith Camtasia (recording) | README says it is no longer maintained; last stable release 2018. |
 | [ClamTk](https://gitlab.com/dave_m/clamtk) | Security & Passwords | Malwarebytes Premium | Inactive: last commit 2024-03-30, last release Jan 2024. |
 | [ddrescueview](https://sourceforge.net/projects/ddrescueview/) | Data Recovery | HDD Raw Copy | Inactive (last update 2022-02-25) and only a viewer, not a recovery tool. |

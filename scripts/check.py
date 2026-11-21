@@ -121,7 +121,6 @@ def check_fields(r: Report, where: str, entry, required: dict, optional: dict) -
     for key in entry:
         if key not in required and key not in optional:
             r.error(where, f"unknown field '{key}'")
-            ok = False
     for key, value in entry.items():
         if isinstance(value, str) and value != value.strip():
             r.error(where, f"'{key}' has leading or trailing spaces")

@@ -17,4 +17,12 @@ exclude = [
   # This repository is private until launch, so its own issue and blob links
   # can't be fetched anonymously.
   '^https://github\.com/RandyNorthrup/price-tag-zero',
+  # These work in a browser but put automated clients behind a bot check
+  # (GNOME GitLab answers 406, KDE Invent 501, scribus.net drops the connection).
+  # The weekly live check still watches the projects themselves.
+  '^https://gitlab\.gnome\.org/',
+  '^https://invent\.kde\.org/',
+  '^https://www\.scribus\.net',
+  # Serves browsers and curl fine, but breaks lychee's HTTP/2 client ("HTTP/2 protocol error").
+  '^https://www\.cacti\.net',
 ]

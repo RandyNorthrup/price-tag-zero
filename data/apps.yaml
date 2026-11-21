@@ -3898,7 +3898,7 @@
 
 - id: macpass
   name: MacPass
-  url: https://macpassapp.org
+  url: https://github.com/MacPass/MacPass
   repo: https://github.com/MacPass/MacPass
   category: security-passwords
   description: Native macOS password manager for KeePass databases.
@@ -3913,7 +3913,7 @@
     license_url: https://github.com/MacPass/MacPass/blob/master/LICENSE.txt
     github_license: NOASSERTION
     release_url: https://github.com/MacPass/MacPass/releases/tag/0.8.2
-    money: 'README: nothing sold'
+    money: 'README: nothing sold. On 2026-11-21 macpassapp.org no longer resolved, so the list links to the GitHub repo.'
     gui: README screenshot (Assets/Screenshots/MacPass.png)
 
 - id: openbao
@@ -3994,7 +3994,7 @@
 
 - id: simplewall
   name: simplewall
-  url: https://www.henrypp.org/product/simplewall
+  url: https://github.com/henrypp/simplewall
   repo: https://github.com/henrypp/simplewall
   category: security-passwords
   description: Lightweight Windows Filtering Platform firewall to control app network access.
@@ -4008,7 +4008,7 @@
   evidence:
     license_url: https://github.com/henrypp/simplewall/blob/master/LICENSE
     release_url: https://github.com/henrypp/simplewall/releases/tag/v.3.8.7
-    money: 'README: donations only; henrypp.org no ads'
+    money: 'README: donations only; henrypp.org no ads. On 2026-11-21 henrypp.org redirected to unrelated sites, so the list links to the GitHub repo.'
     gui: README screenshots (images/simplewall.png)
 
 - id: sirikali

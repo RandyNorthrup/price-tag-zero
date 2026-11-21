@@ -11,7 +11,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 | Paid product | Free, open-source replacements |
 | --- | --- |
 | 010 Editor | [ImHex](https://imhex.werwolv.net) |
-| 1Password | [AuthPass](https://authpass.app), [KeePass Password Safe](https://keepass.info), [KeePassXC](https://keepassxc.org), [MacPass](https://macpassapp.org), [QtPass](https://qtpass.org), [Vaultwarden](https://github.com/dani-garcia/vaultwarden) |
+| 1Password | [AuthPass](https://authpass.app), [KeePass Password Safe](https://keepass.info), [KeePassXC](https://keepassxc.org), [MacPass](https://github.com/MacPass/MacPass), [QtPass](https://qtpass.org), [Vaultwarden](https://github.com/dani-garcia/vaultwarden) |
 
 ## A
 
@@ -128,7 +128,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 | --- | --- |
 | Dacast | [Owncast](https://owncast.online) |
 | DaisyDisk | [Filelight](https://apps.kde.org/filelight/), [GrandPerspective](https://grandperspectiv.sourceforge.net/), [QDirStat](https://github.com/shundhammer/qdirstat) |
-| Dashlane | [KeePass Password Safe](https://keepass.info), [KeePassXC](https://keepassxc.org), [MacPass](https://macpassapp.org) |
+| Dashlane | [KeePass Password Safe](https://keepass.info), [KeePassXC](https://keepassxc.org), [MacPass](https://github.com/MacPass/MacPass) |
 | Datadog Infrastructure | [Beszel](https://beszel.dev), [Glances](http://nicolargo.github.io/glances/) |
 | DataGrip | [HeidiSQL](https://www.heidisql.com), [pgAdmin 4](https://www.pgadmin.org) |
 | Day One | [Memos](https://usememos.com) |
@@ -193,7 +193,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 | Gifox | [ScreenToGif](https://www.screentogif.com) |
 | GitKraken | [Git Extensions](https://gitextensions.github.io), [GitHub Desktop](https://desktop.github.com), [SourceGit](https://github.com/sourcegit-org/sourcegit) |
 | Glary Utilities Pro | [Optimizer](https://github.com/hellzerg/optimizer) |
-| GlassWire | [Fort Firewall](https://github.com/tnodir/fort), [OpenSnitch](https://github.com/evilsocket/opensnitch), [simplewall](https://www.henrypp.org/product/simplewall), [Sniffnet](https://sniffnet.app), [TinyWall](https://tinywall.pados.hu) |
+| GlassWire | [Fort Firewall](https://github.com/tnodir/fort), [OpenSnitch](https://github.com/evilsocket/opensnitch), [simplewall](https://github.com/henrypp/simplewall), [Sniffnet](https://sniffnet.app), [TinyWall](https://tinywall.pados.hu) |
 | Glyphs | [FontForge](https://fontforge.org) |
 | GoodNotes | [Butterfly](https://butterfly.linwood.dev), [Rnote](https://rnote.flxzt.net), [Xournal++](https://xournalpp.github.io) |
 | GoodSync | [Syncthing](https://syncthing.net/), [Syncthing Tray](https://martchus.github.io/syncthingtray/), [SyncTrayzor](https://github.com/GermanCoding/SyncTrayzor), [Unison](https://github.com/bcpierce00/unison) |
@@ -305,7 +305,7 @@ Every paid product named in [Price Tag Zero](README.md), A to Z, with the free, 
 | NCH Switch Plus | [fre:ac](https://www.freac.org) |
 | NeoLoad | [Apache JMeter](https://jmeter.apache.org) |
 | Nero Burning ROM | [K3b](https://apps.kde.org/k3b/) |
-| NetLimiter | [Fort Firewall](https://github.com/tnodir/fort), [simplewall](https://www.henrypp.org/product/simplewall), [Sniffnet](https://sniffnet.app) |
+| NetLimiter | [Fort Firewall](https://github.com/tnodir/fort), [simplewall](https://github.com/henrypp/simplewall), [Sniffnet](https://sniffnet.app) |
 | NetScanTools Pro | [Angry IP Scanner](https://angryip.org) |
 | Ninite Pro | [UniGetUI](https://devolutions.net/unigetui/), [WinUtil](https://winutil.christitus.com/) |
 | NordLocker | [SiriKali](https://mhogomchungu.github.io/sirikali/) |
